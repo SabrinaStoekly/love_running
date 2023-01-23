@@ -279,3 +279,39 @@ footer{
     }
 }
 
+@media screen and (max-width: 950px){
+    
+    #menu {
+        clear: both;
+        float: left;
+        margin-left: 30px;
+        margin-bottom: 20px;
+        line-height: 25px;
+    }
+
+    #cover_text{
+        left: 0;
+    }
+
+    #club_ethos {
+        width: 90%;
+        height: 1200px;
+        margin: 0 auto;
+    }
+
+    .left_about_heading, .right_about_heading{
+        width: inherit;
+    }
+
+    .left_about_heading h2,.right_about_heading h2{
+        width: 100%;
+        text-align: center;
+    }
+
+    .left_about_heading p, .right_about_heading p {
+        text-align: center;
+        padding: 0 20px;
+    }
+     
+}
+
